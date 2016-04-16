@@ -5027,7 +5027,7 @@ function uploadPhotoProfile(imageURI, imageName) {
     options.params = params;
 	
     var ft = new FileTransfer();
-	 alert (localStorage.photo_submit_url)
+	 //alert (localStorage.photo_submit_url)
      ft.upload(imageURI, encodeURI(localStorage.photo_submit_url+"fileUploaderProfile/"),winProfile,failProfile,options);
 }
 
