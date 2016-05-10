@@ -7,7 +7,7 @@ var mobile_off_flag=0;
 
 //-------GET GEO LOCATION
 function getLocationInfo() { //location
-	var options = { enableHighAccuracy: false,timeout:20000};//20sec
+	var options = { enableHighAccuracy: false,timeout:120000};//20sec
 	navigator.geolocation.getCurrentPosition(onSuccess, onError , options);
 }
 
